@@ -83,7 +83,7 @@ nav ul li a{
 }
 
 .secpri button:hover{
-    background-color: #FC697B;
+    background-color: #F53A50;
     color: #FFFFFF;
     transition: 0.2s;
 }
@@ -146,6 +146,62 @@ nav ul li a{
     transition: 0.2s;
 }
 
+.terseg{
+    padding: 15vh;
+    background: #C94970;
+    background-image: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83.88776779174805%, #FC697B 95.43895721435547%);
+}
+
+.textoyboton {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoyboton h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.textoyboton p{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 35px;
+}
+
+.textoyboton a{
+    background-color: #FFFFFF;
+    color: #F53A50;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.textoyboton a:hover{
+    background-color: #F53A50;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.cuarseg{
+    position: relative;
+    width: 100%;
+}
+
+.cuarseg img{
+    width: 100%;
+}
+
+.cuarseg .textopome{
+    color: #fff; 
+    font-size: 50px;
+    position: absolute;
+    top: 35%; 
+    left: 50%;
+  }
 
 
 
