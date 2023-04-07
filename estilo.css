@@ -35,9 +35,12 @@ nav ul li a{
     font-size: 20px 5px;
     padding: 5px 13px;
 }
-nav a:hover{
-    color: #FC697B;
-    text-decoration: underline;
+.tmenu:hover{
+    padding: 5px 10px;
+    background-color: #F53A50;
+    color: #FFFFFF;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 .secpri{
@@ -64,7 +67,7 @@ nav a:hover{
     color: #FFFFFF;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 6vh;
+    margin-top: 4vh;
 }
 
 .secpri button{
@@ -75,12 +78,75 @@ nav a:hover{
     font-weight: 600;
     font-size: 18px;
     padding: 20px;
-    margin-top: 6vh;
+    margin-top: 4vh;
     border-radius: 10px;
 }
 
 .secpri button:hover{
     background-color: #FC697B;
     color: #FFFFFF;
-    transition: .2s;
+    transition: 0.2s;
 }
+
+.secseg h2{
+    color: #F53A50;
+    text-align: center;
+    font-size: 45px;
+    padding: 40px;
+}
+
+.secseg{
+    height: 105vh;
+}
+
+.contcards{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.card{
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px #FC697B;
+    transition: all 400ms ease;
+}
+
+.textcard:hover{
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
+
+.textcard h3{
+    color:#F53A50;
+    margin-bottom: 15px;
+}
+
+.textcard p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 270px;
+    margin-bottom: 25px;
+}
+
+.textcard a{
+    background-color: #F53A50;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.textcard a:hover{
+    background-color: #FC697B;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+
+
+
+
